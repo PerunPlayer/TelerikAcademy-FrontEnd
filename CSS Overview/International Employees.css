@@ -1,0 +1,19 @@
+img {
+    height: 1em;
+}
+table {
+    width: 40em;
+}
+table, tr, td, thead {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, sans-serif
+    padding: 5px 5px 5px 5px;
+}
+thead {
+    background-color: #00C300;
+    color: #ffffff;
+}
+.grey{
+  background-color: #E6E6E6;
+}

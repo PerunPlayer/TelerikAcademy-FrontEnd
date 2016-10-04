@@ -1,0 +1,39 @@
+table
+{
+  width: 50em;
+  height: 15em;
+}
+body
+{
+  background-color: #595959;
+}
+h1
+{
+  color: #B1B8A1;
+}
+td.category
+{
+  font-style: italic;
+  color: #CCCCCC;
+  vertical-align: top;
+}
+.red
+{
+  color: #FF0000;
+}
+.orange
+{
+  color: #FF6600;
+}
+.white
+{
+  color: #FFFFFF;
+}
+.grey
+{
+  color: #999999;
+}
+img
+{
+  height: 1em;
+}

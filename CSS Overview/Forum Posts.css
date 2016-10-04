@@ -1,0 +1,26 @@
+body {
+    background-color: #A9A9A9;
+}
+h1, h2 {
+    text-align: center;
+    color: #FAFAD2;
+}
+a {
+    text-decoration: none;
+    color: #FAFAD2;
+}
+a.current {
+    background-color: #D3D3D3;
+}
+.underlined
+{
+  text-decoration: underline;
+}
+.last
+{
+  text-align: center;
+}
+.Minko
+{
+  color: #000000;
+}

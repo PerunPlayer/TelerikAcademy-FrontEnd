@@ -1,0 +1,19 @@
+table
+{
+  font-size: 100%;
+  border-collapse: collapse;
+  padding: 10%;
+  width: 13%;
+}
+.Center
+{
+  text-align: center;
+}
+.Right
+{
+  text-align: right;
+}
+table, td, th
+{
+  border: ridge #C0C0C0
+}

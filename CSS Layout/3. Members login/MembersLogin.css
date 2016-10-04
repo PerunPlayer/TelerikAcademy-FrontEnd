@@ -1,0 +1,79 @@
+body {
+    font-size: 14px;
+    font-family: arial;
+    width: 600px;
+}
+header {
+    color: #FFF;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    height: 65px;
+    width: 600px;
+    justify-content: space-between;
+    border-bottom: 1px solid #2A2A2A;
+    background: #3B3B3B;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3B3B3B, #292929);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3B3B3B, #292929);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3B3B3B, #292929);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3B3B3B, #292929);
+    /* Standard syntax */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#form {
+    font-family: times new roman;
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+#form input {
+    width: 120px;
+}
+#form button {
+    position: absolute;
+    top: 5px;
+    left: 450px;
+    background: url(Go.png);
+    background-repeat: no-repeat;
+    background-size: 55px 27px;
+    border: 1px solid #FFF;
+    border-radius: 11px;
+    width: 56px;
+    height: 28px;
+}
+#form button:hover {
+    opacity: 0.8;
+}
+section {
+    padding: 10px;
+    padding-bottom: 10px;
+    width: 595px;
+    background: #3B3B3B;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+h1 {
+    font-family: times new roman;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0px;
+    color: #FFD633;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #B3B3B3;
+}
+span {
+    color: #FFC;
+}

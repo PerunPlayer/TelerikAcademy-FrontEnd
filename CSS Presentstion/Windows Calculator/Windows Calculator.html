@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Windows Calculator</title>
+    <link rel="stylesheet" href="Windows Calculator.css" media="screen" title="Windows Calculator" charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <span id="logo"><img src="Calculator.png" alt="calculator logo" /></span>
+        <span id="title">Calculator</span>
+        <span id="window-buttons"><img src="button Win7.png" alt="buttons" /></span>
+        <nav id="menu">
+            <ul>
+                <li>View</li>
+                <li>Edit</li>
+                <li>Help</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <input type="text" name="name" id="start">
+        </form>
+        <div id="bits">
+            <table>
+                <tr>
+                    <td>0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td>0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td class="index">63</td>
+                    <td class="index">47</td>
+                    <td class="index">32</td>
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td>0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td rowspan="2" class="null">0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td class="index">31</td>
+                    <td class="index">15</td>
+                    <td class="index">0</td>
+                </tr>
+            </table>
+        </div>
+        <div id="numpad">
+            <table>
+                <tr>
+                    <td rowspan="3" colspan="2" class="radio">
+                        <form>
+                            <label class="block">
+                                <input type="radio" name="radio" value="Hex">Hex
+                            </label>
+                            <label class="block">
+                                <input type="radio" name="radio" value="Dec" checked>Dec
+                            </label>
+                            <label class="block">
+                                <input type="radio" name="radio" value="Oct">Oct
+                            </label>
+                            <label class="block">
+                                <input type="radio" name="radio" value="Bin">Bin
+                            </label>
+                        </form>
+                    </td>
+                    <td></td>
+                    <td class="metal">Mod</td>
+                    <td>A</td>
+                    <td>MC</td>
+                    <td>MR</td>
+                    <td>MS</td>
+                    <td>M+</td>
+                    <td>M-</td>
+                </tr>
+                <tr>
+                    <td class="shiny">(</td>
+                    <td class="shiny">)</td>
+                    <td>B</td>
+                    <td class="shiny"><b>&leftarrow;</b></td>
+                    <td class="shiny">CE</td>
+                    <td class="shiny">C</td>
+                    <td class="shiny">&plusmn;</td>
+                    <td>&Sqrt;</td>
+                </tr>
+                <tr>
+                    <td class="shiny">Ro</td>
+                    <td class="shiny">RoR</td>
+                    <td>C</td>
+                    <td class="shiny">7</td>
+                    <td class="shiny">8</td>
+                    <td class="shiny">9</td>
+                    <td class="shiny">&frasl;</td>
+                    <td>&percnt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" colspan="2" class="radio">
+                        <form id="larger">
+                            <label class="block">
+                                <input type="radio" name="radio" value="Qword" checked>Qword
+                            </label>
+                            <label class="block">
+                                <input type="radio" name="radio" value="Dword">Dword
+                            </label>
+                            <label class="block">
+                                <input type="radio" name="radio" value="Word">Word
+                            </label>
+                            <label class="block">
+                                <input type="radio" name="radio" value="Byte">Byte
+                            </label>
+                        </form>
+                    </td>
+                    <td class="shiny">Or</td>
+                    <td class="shiny">Xor</td>
+                    <td>D</td>
+                    <td class="shiny">4</td>
+                    <td class="shiny">5</td>
+                    <td class="shiny">6</td>
+                    <td class="shiny">&lowast;</td>
+                    <td>1/x</td>
+                </tr>
+                <tr>
+                    <td class="shiny">Lsh</td>
+                    <td class="shiny">Rsh</td>
+                    <td>E</td>
+                    <td class="shiny">1</td>
+                    <td class="shiny">2</td>
+                    <td class="shiny">3</td>
+                    <td class="shiny">&minus;</td>
+                    <td rowspan="2" class="shiny"><b>&equals;</b></td>
+                </tr>
+                <tr>
+                    <td class="shiny">Not</td>
+                    <td class="shiny">And</td>
+                    <td>F</td>
+                    <td colspan="2" class="shiny">0</td>
+                    <td>&period;</td>
+                    <td class="shiny">&plus;</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
